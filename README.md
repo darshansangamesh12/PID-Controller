@@ -9,4 +9,4 @@ Features:
   - Simulation of process dynamics with real-world disturbances.
   - Implementation of noise filtering to enhance system stability.
   - Exploration of auto-tuning techniques for PID parameters.
-Outcome: The process variable demonstrated stable
+  - Outcome: The process variable demonstrated stable
