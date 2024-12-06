@@ -1,12 +1,31 @@
-# PID Controller Simulation with Disturbance Handling
 
-This repository contains a LabVIEW-based simulation of a Proportional-Integral-Derivative (PID) controller designed for process control applications. The project demonstrates the implementation of a PID control system, disturbance handling with noise filtering, and the exploration of auto-tuning concepts.
+# PID Controller Simulation with Disturbance Handling and Auto-Tuning Exploration
 
-## Project Overview
+## Overview
+This project demonstrates the implementation of a PID (Proportional-Integral-Derivative) Controller in LabVIEW 2021. It focuses on stabilizing a simulated process variable (PV) to a desired setpoint (SP) under the influence of disturbances such as DC noise and low-frequency periodic noise. The controller also integrates an auto-tuning exploration feature for optimizing PID parameters.
 
-Objective:Develop a PID controller simulation that handles disturbances such as DC noise and low-frequency periodic noise, ensuring the process variable stabilizes near the setpoint.  
-Features:
-  - Simulation of process dynamics with real-world disturbances.
-  - Implementation of noise filtering to enhance system stability.
-  - Exploration of auto-tuning techniques for PID parameters.
-  - Outcome: The process variable demonstrated stable
+## Key Features
+- **PID Control Implementation**: Developed a fully functional PID controller to regulate the process variable.
+- **Disturbance Handling**: Simulated real-world disturbances (DC and periodic noise) to test the robustness of the control system.
+- **Graphical Visualization**: Plotted the process variable against time for better understanding and analysis.
+- **Filter Integration**: Included noise filtering for improved controller performance.
+
+## Highlights
+- **Real-Life Simulation**: Replicated scenarios commonly encountered in industrial control systems, including noise and environmental variations.
+- **Graphical Programming**: Designed entirely using LabVIEW 2021's graphical environment for intuitive flow and clarity.
+- **Learning Objective**: Combined theoretical PID concepts with practical application, enhancing understanding of tuning and control strategies.
+
+## How to Use
+1. Clone the repository:
+   ```bash
+   
+   ```
+2. Open the LabVIEW 2021 `.vi` file provided in the repository.
+3. Run the simulation and observe the performance of the PID controller.
+4. Modify PID parameters or introduce new disturbances to explore further.
+
+
+## Future Scope
+- Fine-tune the auto-tuning algorithm for wider applications.
+- Integrate advanced noise filters for better noise rejection.
+- Expand the project to include hardware implementation.
