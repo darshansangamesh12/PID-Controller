@@ -1,8 +1,8 @@
 
-# PID Controller Simulation with Disturbance Handling and Auto-Tuning Exploration
+# PID Controller Simulation with Disturbance Handling
 
 ## Overview
-This project demonstrates the implementation of a PID (Proportional-Integral-Derivative) Controller in LabVIEW 2021. It focuses on stabilizing a simulated process variable (PV) to a desired setpoint (SP) under the influence of disturbances such as DC noise and low-frequency periodic noise. The controller also integrates an auto-tuning exploration feature for optimizing PID parameters.
+This project demonstrates the implementation of a PID (Proportional-Integral-Derivative) Controller in LabVIEW 2021. It focuses on stabilizing a simulated process variable (PV) to a desired setpoint (SP) under the influence of disturbances such as DC noise and low-frequency periodic noise.
 
 ## Key Features
 - **PID Control Implementation**: Developed a fully functional PID controller to regulate the process variable.
@@ -16,13 +16,9 @@ This project demonstrates the implementation of a PID (Proportional-Integral-Der
 - **Learning Objective**: Combined theoretical PID concepts with practical application, enhancing understanding of tuning and control strategies.
 
 ## How to Use
-1. Clone the repository:
-   ```bash
-   
-   ```
-2. Open the LabVIEW 2021 `.vi` file provided in the repository.
-3. Run the simulation and observe the performance of the PID controller.
-4. Modify PID parameters or introduce new disturbances to explore further.
+1. Open the LabVIEW 2021 `.vi` file provided in the repository.
+2. Run the simulation and observe the performance of the PID controller.
+3. Modify PID parameters or introduce new disturbances to explore further.
 
 
 ## Future Scope
