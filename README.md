@@ -1,8 +1,5 @@
-# PID-Controller
-
----
-
 # PID Controller Simulation with Disturbance Handling
+---
 
 This repository contains a LabVIEW-based simulation of a Proportional-Integral-Derivative (PID) controller designed for process control applications. The project demonstrates the implementation of a PID control system, disturbance handling with noise filtering, and the exploration of auto-tuning concepts.
 
